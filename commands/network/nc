@@ -1,0 +1,3 @@
+# test udp port available
+nc -uvl <IP> <UDP port>    # server side
+nc -u <IP> <UDP port>      # client side
