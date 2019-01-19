@@ -1,4 +1,7 @@
 # UDP PPS
+# Show pps
+sar -n DEV 1
+
 # Server
 iper -s -u
 
