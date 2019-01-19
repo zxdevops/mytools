@@ -1,0 +1,10 @@
+# UDP PPS
+# Server
+iper -s -u
+
+# Client
+# -t time
+# -i interval stats
+# -b bandwidth
+# -l packet length
+iperf -c <server> -u -t 300 -i 1 -b 10G -l 100
