@@ -1,0 +1,8 @@
+# Show iptable rules with line numbers.
+iptables -t filter -L INPUT --line-numbers -n
+
+# Insert iptable rules in specific line number.
+iptables -I INPUT 1 -s <src net> -j ACCEPT
+
+# Delete specific numner rule.
+iptables -D INPUT <NO.>
